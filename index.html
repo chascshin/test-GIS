@@ -399,7 +399,7 @@
         bounds_group.addLayer(layer_pH_4);
         map.createPane('pane_K2O_5');
         map.getPane('pane_K2O_5').style.zIndex = 405;
-        var layer_K2O_5 = L.WMS.layer("http://localhost:8080/geoserver/test_gis/wms", "K2O", {
+        var layer_K2O_5 = L.WMS.layer("http://localhost:8080/geoserver/gis_1811/wms", "K2O", {
             pane: 'pane_K2O_5',
             format: 'image/png',
             uppercase: true,
@@ -413,7 +413,7 @@
         });
         map.createPane('pane_P2O5_6');
         map.getPane('pane_P2O5_6').style.zIndex = 406;
-        var layer_P2O5_6 = L.WMS.layer("http://localhost:8080/geoserver/test_gis/wms", "P", {
+        var layer_P2O5_6 = L.WMS.layer("http://localhost:8080/geoserver/gis_1811/wms", "P", {
             pane: 'pane_P2O5_6',
             format: 'image/png',
             uppercase: true,
